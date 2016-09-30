@@ -1,0 +1,19 @@
+{
+  "name": "clicksend/worker-php",
+  "description": "Official PHP Library for ClickSend Worker.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Omar Usman",
+      "email": "omar@clicksend.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ClickSend\\Worker\\": "src/"
+    }
+  }
+}
